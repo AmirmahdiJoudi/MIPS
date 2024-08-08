@@ -1,0 +1,86 @@
+restart -f
+# No Design Loaded!
+vsim -gui work.mips_tb
+# vsim -gui work.mips_tb 
+# Start time: 21:50:59 on Feb 03,2024
+# Loading work.mips_tb
+# Loading work.mips_pipeline
+# Loading work.datapath
+# Loading work.register
+# Loading work.adder
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.reg_file
+# Loading work.sign_ext
+# Loading work.alu
+# Loading work.controller
+# Loading work.alu_controller
+# Loading work.hazard_unit
+# Loading work.forwarding_unit
+# Loading work.inst_mem
+# Loading work.data_mem
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:C:/mtitcl/vsim/qstructure.tc_:2478: ::QStructure::sort .main_pane.structure 0 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 0 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 0 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 0 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+do {C:/Amirmahdi/Electrical Engineering/Graduate/Advanced Computer Architecture/CAs/3/codes/MODELSIM/wave.do}
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Asus  Hostname: LAPTOP-FUSNV1H6  ProcessID: 20920
+#           Attempting to use alternate WLF file "./wlftt59mr9".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftt59mr9
+# (vsim-4077) Logging very large object: /mips_tb/DM/mem
+# (vsim-4077) Logging very large object: /mips_tb/DM/mem
+run -all
+# The content of mem[2000] =          73
+# ** Note: $stop    : C:/Amirmahdi/Electrical Engineering/Graduate/Advanced Computer Architecture/CAs/3/codes/mips_tb.v(45)
+#    Time: 3520 ps  Iteration: 0  Instance: /mips_tb
+# Break in Module mips_tb at C:/Amirmahdi/Electrical Engineering/Graduate/Advanced Computer Architecture/CAs/3/codes/mips_tb.v line 45
+# Compile of alu_controller.v was successful.
+# Compile of controller.v was successful.
+# Compile of forwarding_unit.v was successful.
+# Compile of hazard_unit.v was successful.
+# Compile of adder.v was successful.
+# Compile of alu.v was successful.
+# Compile of datapath.v was successful.
+# Compile of mux2to1.v was successful.
+# Compile of mux4to1.v was successful.
+# Compile of reg_file.v was successful.
+# Compile of register.v was successful.
+# Compile of sign_ext.v was successful.
+# Compile of data_mem.v was successful.
+# Compile of inst_mem.v was successful.
+# Compile of mips_pipeline.v was successful.
+# Compile of mips_tb.v was successful.
+# 16 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.mips_tb
+# Loading work.mips_pipeline
+# Loading work.datapath
+# Loading work.register
+# Loading work.adder
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.reg_file
+# Loading work.sign_ext
+# Loading work.alu
+# Loading work.controller
+# Loading work.alu_controller
+# Loading work.hazard_unit
+# Loading work.forwarding_unit
+# Loading work.inst_mem
+# Loading work.data_mem
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# The content of mem[2000] =          73
+# ** Note: $stop    : C:/Amirmahdi/Electrical Engineering/Graduate/Advanced Computer Architecture/CAs/3/codes/mips_tb.v(45)
+#    Time: 3520 ps  Iteration: 0  Instance: /mips_tb
+# Break in Module mips_tb at C:/Amirmahdi/Electrical Engineering/Graduate/Advanced Computer Architecture/CAs/3/codes/mips_tb.v line 45
+# End time: 00:17:36 on Feb 04,2024, Elapsed time: 2:26:37
+# Errors: 0, Warnings: 1

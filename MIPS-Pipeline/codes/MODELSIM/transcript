@@ -1,0 +1,34 @@
+vsim -gui work.mips_tb
+# vsim -gui work.mips_tb 
+# Start time: 11:44:53 on Nov 27,2023
+# Loading work.mips_tb
+# Loading work.mips_pipeline
+# Loading work.datapath
+# Loading work.register
+# Loading work.adder
+# Loading work.mux2to1
+# Loading work.mux4to1
+# Loading work.reg_file
+# Loading work.sign_ext
+# Loading work.alu
+# Loading work.controller
+# Loading work.alu_controller
+# Loading work.hazard_unit
+# Loading work.forwarding_unit
+# Loading work.inst_mem
+# Loading work.data_mem
+do {C:/Amirmahdi/Electrical Engineering/Graduate/Advanced Computer Architecture/CAs/1/codes/MODELSIM/wave.do}
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Asus  Hostname: LAPTOP-FUSNV1H6  ProcessID: 5144
+#           Attempting to use alternate WLF file "./wlft8k4cnk".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft8k4cnk
+# (vsim-4077) Logging very large object: /mips_tb/IM/mem
+# (vsim-4077) Logging very large object: /mips_tb/DM/mem
+run -all
+# The content of mem[2000] =          73
+# ** Note: $stop    : C:/Amirmahdi/Electrical Engineering/Graduate/Advanced Computer Architecture/CAs/1/codes/mips_tb.v(45)
+#    Time: 3520 ps  Iteration: 0  Instance: /mips_tb
+# Break in Module mips_tb at C:/Amirmahdi/Electrical Engineering/Graduate/Advanced Computer Architecture/CAs/1/codes/mips_tb.v line 45
+# End time: 12:12:52 on Nov 27,2023, Elapsed time: 0:27:59
+# Errors: 0, Warnings: 3
